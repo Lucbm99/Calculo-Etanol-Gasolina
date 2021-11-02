@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
 
+import { Descricao } from './components/Description';
+import { ImageCombustivel } from './components/ImageCombustivel';
+import { InputEtanol } from './components/InputEtanol';
+import { InputGasolina } from './components/InputGasolina';
+
 function App() {
   const [precoGasolina, setPrecoGasolina] = useState('');
   const [precoEtanol, setPrecoEtanol] = useState('');
@@ -24,38 +29,22 @@ function App() {
   return (
     <>
       <div className="area-geral">
-        <div className="form-combustivel">
-          Você sabe com qual combustível compensa mais abastecer seu carro? <br/> 
-          Utilize a calculadora abaixo:
-        </div>
-        <div className="campos-combustiveis">
-          <label>Preço etanol:</label>
-          <div className="campo-etanol">
-            <input 
-              type="number" 
-              step="any"
-              id="etanol"
-              placeholder="Digite o preço do etanol..."
-              value={precoEtanol}
-              onChange={(e) => setPrecoEtanol(e.target.value)}
-            />
-          </div>
+          <ImageCombustivel />
+          <Descricao />
 
-          <label>Preço gasolina:</label>
-          <div className="campo-gasolina">
-            <input 
-              type="number" 
-              step="any"
-              id="gasolina"
-              placeholder="Digite o preço da gasolina..."
+          <div className="campos-combustiveis">
+            <InputEtanol 
+              value={precoEtanol} 
+              onChange={(e) => setPrecoEtanol(e.target.value)} 
+            />
+
+            <InputGasolina 
               value={precoGasolina}
-              onChange={(e) => setPrecoGasolina(e.target.value)}
+              onChange={(e) => setPrecoGasolina(e.target.value)} 
             />
           </div>
-
+          <button onClick={calcularPrecoCombustivel} title="Fazer cálculo">Calcular</button>
         </div>
-        <button onClick={calcularPrecoCombustivel}>Calcular</button>
-      </div>
     </>
   );
 }

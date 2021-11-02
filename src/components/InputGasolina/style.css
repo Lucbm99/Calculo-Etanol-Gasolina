@@ -1,0 +1,13 @@
+
+.campo-gasolina input {
+    border: 2px solid #fff; 
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+    width: 18rem;
+}
+@media (min-width: 320px) and (max-width: 375px) {
+    .campo-gasolina input {
+        width: 16rem;
+    }
+}

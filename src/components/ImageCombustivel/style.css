@@ -1,0 +1,9 @@
+.img-combustivel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-combustivel img {
+    width: 15%;
+    height: auto;
+}
