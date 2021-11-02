@@ -35,6 +35,10 @@ NPM: https://npmjs.com
 
 🚧 Finalizado 🚧
 
+Vídeo demo: https://youtu.be/acU8wXm1Vfc
+
+Link para acesso: https://calculo-combustivel.vercel.app/
+
 
 ## 🛠️ Feito com
 * [NodeJS](https://nodejs.org/en/)
