@@ -1,4 +1,4 @@
-# Calculadora de combustível - qual compensa mais abastecer.
+# Calculadora de combustível - qual compensa mais abastecer?
 Para fins de estudo do framework Reactjs, foi feita uma aplicação para ver qual combustível é o mais vantajoso para abastecer o seu carro, moto, etc.
 
 ## 🚀 Instruções 
