@@ -22,27 +22,22 @@ NPM: https://npmjs.com
 
 ### 🔧 Como rodar o projeto? 
 
-## 1 - Primeiro faça o clone desse repositório com o comando: git clone https://github.com/Lucbm99/Calculo-Etanol-Gasolina.git, com o prompt de comando ou o Git Bash, em qualquer pasta de seu computador.
+## 1 - Primeiro faça o clone desse repositório com o comando: git clone https://github.com/Lucbm99/MarvelAPI.git, com o prompt de comando ou o Git Bash, em qualquer pasta de seu computador.
 
 ## 2 - Após isso, deverá ser digitado no terminal na pasta de seu projeto, o comando npm install.
 
-## 3 - Feita a instalação do NPM, é necessário digitar o comando npm start, para abrir a aplicação, que estará disponível em http://localhost:3000 em seu computador. 
+## 3 - Feita a instalação do NPM, é necessário digitar o comando ng serve, para abrir a aplicação, que estará disponível em http://localhost:4200 em seu computador. 
 
-![image](https://user-images.githubusercontent.com/45500959/139927684-f1a5619d-6431-43ec-a69d-8100f939b1e2.png)
 
 
 ## 📦 Status da aplicação
 
-🚧 Finalizado 🚧
-
-Vídeo demo: https://youtu.be/acU8wXm1Vfc
-
-Link para acesso: https://calculo-combustivel.vercel.app/
+🚧 Em andamento 🚧
 
 
 ## 🛠️ Feito com
 * [NodeJS](https://nodejs.org/en/)
-* [ReactJS](https://reactjs.org/docs/getting-started.html)
+* [Angular](http://angular.io/)
 * [Git](https://git-scm.com/downloads)
 * [NPM](https://npmjs.com/)
 
